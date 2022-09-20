@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    background-image: url('../assets/images/PHOTO-2022-08-31-08-45-47.jpg');
+    background-attachment: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    color: gray;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+.p {
+    margin-left: 25px;
+    /* text-align:unset; */
+}
+
+.header {
+    /* display: flex; */
+    position: sticky;
+    top: 0;
+    background-color:blanchedalmond;
+    padding: 30px 20px;
+    z-index: 1; 
+    /* flex-wrap: wrap; */
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+}
+
+.header__content-tittle {
+    color: grey;
+}
+
+.header__content-navbar {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.header__content-navbar a {
+    margin: 0 15px;
+    color: grey;
+    font-weight: bold;
+    /* flex-wrap: wrap; */
+}
+
+.whatsapp {
+    position: relative;
+    bottom: 25px;
+    left: 2,5%;
+}
+
+.instagram {
+    position: relative;
+    bottom: 25px;
+    left: 2,5%;
+}
+
+.card {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
+
+.card__tittle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.h2__tittle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    color: gray;
+}
+
+.p__tittle {
+    margin-left: 25px;
+}
+
+.card__description {
+    margin-bottom: 40px;
+}
+
+.card__link {
+    background-color: #22c55e;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #c2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card__header-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card__header {
+    position: relative;
+}
+
+.card__header-tag {
+    padding: 8px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 10px;
+}
+
+.card__header-tag--strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card__h2 {
+    text-align: center;
+}
+
+.courses {
+    margin-top: 30px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.courses__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.courses__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+}
+
+.bordes-redondos {
+    border-radius: 30px;  
+    /* border-radius: 10px; */
+}
+
+.card__sticky {
+    display: inline;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.flex {
+    /* background-color: darkseagreen; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 25px 25px;
+}
+
+.flex1 {
+    background-color: bisque;
+    margin: 25px 25px;
+}
+
+.h2__productos {
+    margin: 25px 25px;
+}
+
+.flex__cosmetica {
+    /* background-color:darkseagreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 25px 25px;
+}
+
+.box__cosmetica {
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 15px;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+
+.letra__cosmetica {
+    line-height: 2;
+}
+
+fieldset {
+    margin: 25px 25px;
+}
+
+select {
+    margin: 25px 25px;
+}
+
+option {
+    margin: 25px 25px;
+}
+
+label {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+input { 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+} 
+
+iframe {
+    /* margin-left: 25px; */
+    /* margin-bottom: 25px; */
+    margin-top: 20px;
+}
+
+footer {
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+
+@media (max-widht: 550px) {
+    .courses__content {
+        grid-template-columns: repeat 1fr;
+        flex-wrap: wrap;
+    }
+    .header__content-navbar {
+        display: none;
+        flex-wrap: wrap;
+    }
+}
+
+.animation {
+    border-radius: 30px;
+}
+
+.gradient {
+    margin-top: 25px;
+     height: 200px;
+     width: 850px;
+     background-image: linear-gradient(40deg, rgb(208, 226, 208), bisque 35% 35%, rgb(208, 226, 208) );
+}
+
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    color: gray;
+    font-size: 30px;
+    margin-top: 30px;
+    transition: all 1s
+}
+
+.transform:hover {
+    transform: translate(870px, -230px);
+    background-color: rgb(171, 187, 171);
+    color: rgb(240, 148, 109);
+}
+
+/* .input {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.input:hover {
+    border: 2px solid red;
+} */ 
+
+.sky {
+    width: 200px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    animation-name: skySunset;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    overflow: hidden; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes skySunset {
+    0% {
+        /* background-color: antiquewhite;  */
+    }
+    50% {
+        /* background-color: rgb(223, 235, 223); */
+    }
+    100% {
+        /* background-color:rgb(199, 232, 199); */
+    }
+}
+
+.sun {
+    /* width: 80px; */
+    /* height: 80px; */
+    /* background-color: bisque; */
+    /* border-radius: 50%; */
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    animation-name: sunMove;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sunMove {
+    0% {
+        top: 20px;
+    }
+     100% {
+        top: 260px
+    }
+}
+
+.effect {
+    transition: border 0.3s;
+}
+
+.effect :hover {
+    border: 1px solid lightseagreen;
+}
